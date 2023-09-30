@@ -26,11 +26,24 @@
         color: white;
         margin: 0;
       }
+
       .customBgCntr {
         background-color: #a0a0a4;
       }
       .container {
         max-width: 100%;
+      }
+      .body {
+        display: flex;
+        height: 100vh;
+        text-align: center;
+      }
+      .content {
+        flex: 4;
+      }
+      .sidebar {
+        background-color: grey;
+        flex: 1;
       }
     </style>
   </head>
@@ -53,6 +66,14 @@
           <div class="col-1 p-1"><p>Signup</p></div>
           <div class="col-1 p-1"><p>Login</p></div>
         </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="content">
+        <p style="color: black">Write your content here</p>
+      </div>
+      <div class="sidebar">
+        <p>This is</p>
       </div>
     </div>
   </body>
